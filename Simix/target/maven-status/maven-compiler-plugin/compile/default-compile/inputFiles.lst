@@ -1,24 +1,24 @@
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/AdministradorDAO.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/AbstractDAO.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/Comentarista.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/Informador.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/controlador/CalificarComentarioController.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/Marcador.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/ComentarioDAO.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/controlador/ABTemaPropioController.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/controlador/ABMarcador.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/TemaDAO.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/Tema.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/Administrador.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/ComentaristaDAO.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/CalificacionId.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/InformadorDAO.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/Comentario.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/MarcadorDAO.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/ComentarioId.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/Calificacion.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/CalificacionDAO.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/controlador/ABInformadorControlller.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/modelo/HibernateUtil.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/controlador/ABMComentarioPropioController.java
-/home/fercho117/Documentos/CC 2016-6/Ingeniería/XiuTech_SIMIX/Integrado/Simix/src/main/java/com/xiutech/simix/controlador/RegistrarseController.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/Comentarista.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/Informador.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/controlador/ABInformadorControlller.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/controlador/RegistrarseController.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/controlador/ABTemaPropioController.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/ComentarioDAO.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/CalificacionId.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/Calificacion.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/MarcadorDAO.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/HibernateUtil.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/ComentarioId.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/Marcador.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/ComentaristaDAO.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/Tema.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/AbstractDAO.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/controlador/ABMComentarioPropioController.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/CalificacionDAO.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/controlador/CalificarComentarioController.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/Comentario.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/AdministradorDAO.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/TemaDAO.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/controlador/ABMarcador.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/InformadorDAO.java
+/home/umm/Documentos/Git/SistemaMapa/Simix/src/main/java/com/xiutech/simix/modelo/Administrador.java
