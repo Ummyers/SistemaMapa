@@ -10,7 +10,6 @@ import java.util.Set;
  */
 public class Comentarista  implements java.io.Serializable {
 
-
      private String correo;
      private String nombre;
      private String contrasenia;

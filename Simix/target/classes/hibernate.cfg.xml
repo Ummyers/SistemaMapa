@@ -44,7 +44,7 @@ Contributor(s):
     <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
     <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
     <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/simix</property>
-    <property name="hibernate.connection.username">simix_administrator</property>
+    <property name="hibernate.connection.username">simix_administrador</property>
     <property name="hibernate.connection.password">simixadmin</property>
     <property name="hibernate.show_sql">true</property>
     <property name="hibernate.current_session_context_class">thread</property>
