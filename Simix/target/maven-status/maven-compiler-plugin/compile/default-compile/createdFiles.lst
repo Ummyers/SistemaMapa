@@ -9,8 +9,8 @@ com/xiutech/simix/modelo/Informador.class
 com/xiutech/simix/controlador/CalificarComentarioController.class
 com/xiutech/simix/modelo/AbstractDAO.class
 com/xiutech/simix/modelo/HibernateUtil.class
-com/xiutech/simix/modelo/Tema.class
 com/xiutech/simix/modelo/ComentaristaDAO.class
+com/xiutech/simix/modelo/Tema.class
 com/xiutech/simix/controlador/RegistrarseController.class
 com/xiutech/simix/modelo/TemaDAO.class
 com/xiutech/simix/modelo/Marcador.class
