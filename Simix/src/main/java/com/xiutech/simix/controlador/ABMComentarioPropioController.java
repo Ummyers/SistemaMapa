@@ -8,28 +8,28 @@ import com.xiutech.simix.modelo.ComentaristaDAO;
 import com.xiutech.simix.modelo.Marcador;
 import com.xiutech.simix.modelo.MarcadorDAO;
 
-import java.util.Date;
 import javax.faces.bean.ManagedBean;
-//No sabemos si lo necesitamos
-import javax.faces.bean.RequestScoped;
 
+/**
+ *
+ * @author ummyers
+ */
+
+@ManagedBean 
 /** Clase del controlador para comentario
  *  Se Agregara, Borrará y modificará un comentario.
  * @author Ummyers
  */
-
-@ManagedBean
-@RequestScoped
+//@RequestScoped
 
 
-public class ABMComentarioPropioController {
+public class ABMComentarioPropioController{
     
     //private int id_marcador;
     //private String correo_comentarista;
     private String texto; 
     //private ComentarioId id_comentario;
     
-
     public String getTexto() {
         return texto;
     }
@@ -38,25 +38,38 @@ public class ABMComentarioPropioController {
         this.texto = texto;
     }
     
-    public void agregaComentario(){
-        ComentaristaDAO udb = new ComentaristaDAO ();
-        Comentarista cmn = udb.find("mu.andrea@ciencias.unam.mx");
+    public String agregaComentario(){
+        String error = "Ocurrio un error";
+        String mensaje = "Se agrego exitosamente";
         
-        MarcadorDAO udb_prima = new MarcadorDAO();
-        Marcador ma = udb_prima.find(1);
+        try{
+            ComentaristaDAO udb = new ComentaristaDAO ();
+            Comentarista cmn = udb.find("mu.andrea@ciencias.unam.mx");
+
+            MarcadorDAO udb_prima = new MarcadorDAO();
+            Marcador ma = udb_prima.find(1);
+
+            ComentarioId id = new ComentarioId();
+            id.setIdMarcador(ma.getIdMarcador());
+            id.setCorreoComentarista(cmn.getCorreo());
+
+            //Se crea el objeto comentario para agregarlo a la base de datos
+            Comentario u = new Comentario();
+            u.setTexto(texto);
+            u.setComentarista(cmn);
+            u.setMarcador(ma);
+
+            ComentarioDAO uu = new ComentarioDAO ();
+             //Para agregar a la base de datos.
+        uu.save(u);
+        return "MensajeExitoIH?faces-redirect=true&mensaje=" + mensaje;
         
-        ComentarioId id = new ComentarioId();
-        id.setIdMarcador(ma.getIdMarcador());
-        id.setCorreoComentarista(cmn.getCorreo());
-        
-        //Se crea el objeto comentario para agregarlo a la base de datos
-        Comentario u = new Comentario();
-        u.setTexto(texto);
-        u.setComentarista(cmn);
-        u.setMarcador(ma);
-        
-        //Para agregar a la base de datos.
-        //udb.save(u);
+        }catch(Exception e){
+            
+         return "MensajeExitoIH?faces-redirect=true&mensaje="  + mensaje ;           
+        }
+       
+       
     }
     
     public void eliminaComentario(){}

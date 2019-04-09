@@ -21,13 +21,13 @@
                     <!-- Se borraron los value -->
                         <p:selectOneMenu id="rol"  style="width: 100%">
                             <f:selectItem itemLabel="Editar Comentario" itemValue="user" />
-                            <f:selectItem itemLabel="Eliminar comentario" itemValue="superuser" />
+                            <f:selectItem itemLabel="Eliminar comentario" itemValue="superuser"/>
                         </p:selectOneMenu> 
                     <!-- Se elimino rendered ="empty user}"  <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea>-->
                     
                     <h:form id="formulario">
                         <p:inputText class="texto" id="texto" value="#{ABMComentarioPropioController.texto}"  required="true" placeholder="Escribe aquí tu cometario"  validatorMessage="Por favor ingresa un comentario" requiredMessage="Por favor ingresa un comentario"/> <br/>
-                        <p:commandButton class="texto" action="#{ABMComentarioPropioController.agregaComentario()}" value="Añadir comentario" ajax="false" />
+                        <p:commandButton action="#{ABMComentarioPropioController.agregaComentario()}" value="Añadir comentario" ajax="false" />
                     </h:form>
                      
                     </section>
@@ -47,9 +47,6 @@
                         <LI>Opcion 7</LI>
                         <LI>Opcion 8</LI>
                     </UL>
-                    
-                    
-                    
                 </aside>
             </main>
             <footer>
